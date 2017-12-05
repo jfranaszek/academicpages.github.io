@@ -17,11 +17,15 @@ Education
 * B.A. in Economics, University of Warsaw, 2008
 
 
-Working papers
+Working papers (PhD)
 ======
   <ul>{% for post in site.workingpapers %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
+  
+Publications (pre-PhD)
+======
+Systemy emerytalne a rozrodczość, _Ekonomista 5/2012_
   
 Teaching
 ======
@@ -36,23 +40,13 @@ Skills
 * Computing: Matlab, R;
 * Web: HTML, CSS, Wordpress, GitHub :)
 
-Working papers
-======
-  <ul>{% for post in site.workingpapers %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
   
-Talks
+Conferences & workshops
 ======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+* (Ce)^2 Workshop 2017
+* Warsaw Economic Seminar (multiple presentations)
+* Econometric Society Summer School in Kyoto 2016 (attendee)
+* World Congress of the Game Theory Society 2012 (attendee)
   
 Hobbies
 ======
