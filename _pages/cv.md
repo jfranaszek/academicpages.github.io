@@ -43,7 +43,7 @@ Skills
   
 Conferences & workshops
 ======
-* (Ce)^2 Workshop 2017
+* (Ce)<sup>2</sup> Workshop 2017
 * Warsaw Economic Seminar (multiple presentations)
 * Econometric Society Summer School in Kyoto 2016 (attendee)
 * World Congress of the Game Theory Society 2012 (attendee)
