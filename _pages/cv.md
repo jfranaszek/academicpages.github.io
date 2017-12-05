@@ -16,34 +16,25 @@ Education
 * M.Sc. in Mathematics, University of Warsaw, 2010
 * B.A. in Economics, University of Warsaw, 2008
 
+
+Working papers
+======
+  <ul>{% for post in site.workingpapers %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
+  
 Teaching
 ======
-* 2010-11  Optimization Methods
-  * Warsaw School of Economics
-  * computer lab in Octave
-  * download notes [here]()
-
-* 2010-11 Decision Rules II
-  * Warsaw School of Economics
-  * computer lab in Rules
-  * download notes [here]()
-
+  <ul>{% for post in site.teaching %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
   
 Skills
 ======
-* Languages: 
-	* English (fluent)
-	* Polish (mother tongue)
-	* Italian (basic)
-* Text-processing: 
-	* L<sub>A</sub>T<sup>E</sup>X
-	* MS Office
-* Computing
-  * Matlab
-  * R
-* Web
-	* HTML,CSS
-	* Wordpress, GitHub
+* Languages: English (fluent), Polish (mother tongue) Italian (basic);
+* Text-processing: L<sub>A</sub>T<sup>E</sup>X, MS Office;
+* Computing: Matlab, R;
+* Web: HTML, CSS, Wordpress, GitHub :)
 
 Working papers
 ======
