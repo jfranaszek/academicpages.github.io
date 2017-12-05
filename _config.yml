@@ -81,16 +81,16 @@ author:
   name             : "Joanna Franaszek"
   avatar           : "joannafranaszek.jpg"
   bio              : "Microeconomic theorist"
-  location         : "http://hummuseconomicus.pl"
-  employer         :
+  location         : 
+  employer         : "http://hummuseconomicus.pl"
   googlescholar    : 
-  email            :
+  email            : "mailto:joanna.franaszek@eui.eu"
   uri              :
   bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
-  facebook         :
+  facebook         : "asia.dys"
   foursquare       :
   github           : "jfranaszek"
   google_plus      :
