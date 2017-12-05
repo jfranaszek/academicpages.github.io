@@ -36,7 +36,7 @@ Teaching
 Skills
 ======
 * Languages: English (fluent), Polish (mother tongue) Italian (basic);
-* Text-processing: <it>L<sup>A</sup>T<sub>E</sub>X</it>, MS Office;
+* Text-processing: _L<sup>A</sup>T<sub>E</sub>X_, MS Office;
 * Computing: Matlab, R;
 * Web: HTML, CSS, Wordpress, GitHub :)
 
