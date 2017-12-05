@@ -11,34 +11,43 @@ redirect_from:
 
 Education
 ======
-* B.S. in Github, Github University, 2012
-* M.S. in Jekyll, Github University, 2014
-* Ph.D in Version Control Theory, Github University, 2018 (expected)
+* Ph.D. in Economics, European University Institute, 2018 (expected)
+* M.A. in Quantitavie Methods in Economics, Warsaw School of Economics, 2011
+* M.Sc. in Mathematics, University of Warsaw, 2010
+* B.A. in Economics, University of Warsaw, 2008
 
-Work experience
+Teaching
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* 2010-11  Optimization Methods
+  * Warsaw School of Economics
+  * computer lab in Octave
+  * download notes [here]()
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* 2010-11 Decision Rules II
+  * Warsaw School of Economics
+  * computer lab in Rules
+  * download notes [here]()
+
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Languages: 
+	* English (fluent)
+	* Polish (mother tongue)
+	* Italian (basic)
+* Text-processing: 
+	* L<sub>A</sub>T<sup>E</sup>X
+	* MS Office
+* Computing
+  * Matlab
+  * R
+* Web
+	* HTML,CSS
+	* Wordpress, GitHub
 
-Publications
+Working papers
 ======
-  <ul>{% for post in site.publications %}
+  <ul>{% for post in site.workingpapers %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
@@ -54,6 +63,8 @@ Teaching
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Service and leadership
+Hobbies
 ======
-* Currently signed in to 43 different slack teams
+* blog [Hummus Œconomicus](http://hummuseconomicus.pl)
+* photography
+* early education
