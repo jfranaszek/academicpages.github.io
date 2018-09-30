@@ -11,7 +11,7 @@ redirect_from:
 
 Education
 ======
-* Ph.D. in Economics, European University Institute, 2018 (expected)
+* Ph.D. in Economics, European University Institute, 2018
 * M.A. in Quantitavie Methods in Economics, Warsaw School of Economics, 2011
 * M.Sc. in Mathematics, University of Warsaw, 2010
 * B.A. in Economics, University of Warsaw, 2008
@@ -43,7 +43,7 @@ Skills
   
 Conferences & workshops
 ======
-* (Ce)<sup>2</sup> Workshop 2017
+* (Ce)<sup>2</sup> Workshop 2017, 2018
 * Warsaw Economic Seminar (multiple presentations)
 * Econometric Society Summer School in Kyoto 2016 (attendee)
 * World Congress of the Game Theory Society 2012 (attendee)
