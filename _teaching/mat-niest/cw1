@@ -1,0 +1,76 @@
+---
+title:	Ćwiczenia 1. Matematyka studia niestacjonarne  
+author: Joanna Franaszek
+collection: teaching
+permalink: /teaching/mat-niestac/cw1
+venue: "Warsaw School of Economics"
+date: 2018-09-30
+---
+
+# Zasady zaliczenia
+* średnia z dwóch kolokwiów: do 30 pktów
+* egzamin: do 30 pktów
+* aktywność: do 5 pktów
+* e-learning: do 4,5 pkta
+
+|  pkty | ocena |
+|:-----:|:-----:|
+|  0-30 |   2   |
+| 31-36 |   3   |
+| 37-42 |  3.5  |
+| 43-48 |   4   |
+| 49-54 |  4.5  |
+|  55+  |   5   |
+
+####Pomocne:
+* podręcznik: Kłopotowski i inni, Matematyka, Szkoła Główna Handlowa ([zdjęcie okładki]())
+*  WolframAlpha
+  * program z krokami pośrednimi (13.99zł) do kupienia [tu](https://www.microsoft.com/pl-pl/p/wolframalpha/9wzdncrdmzkp)
+(*nie, to nie jest link afiliacyjny*)
+  * printscreen pokazujący przykładową składnię i rozwiązanie krok-po-kroku [tu]()
+  * wersja on-line (do sprawdzenia wyniku, ale bez kroków pośrednich) - [tu](http://www.wolframalpha.com/)
+  * printscreen użycia wersji on-line [tu]()
+  * uwagi:
+    * program jest dość tolerancyjny: można wpisać polecenie po angielsku, pseudo-LaTexem albo sposobem mieszanym. 
+    * dostępne są tutoriale  
+    * *Proszę zwracać uwagę na nawiasy!!!*	 
+* poza tym: [KhanAcademy](https://pl.khanacademy.org/math) (łatwe), [wazniak.mimuw.edu.pl](http://wazniak.mimuw.edu.pl) (trudne) 
+
+## Ciągi
+###Key points:
+* ciąg arytmetyczny, ciąg geometryczny
+* ciągi bywają zbieżne (do granicy), rozbieżne do $$+\infty,-\infty$$ (do granicy niewłaściwej), albo rozbieżne (tymi się mało będziemy zajmować)
+* granica sumy/różnicy/iloczynu/ilorazu ciągów to suma/różnica/iloczyn/iloraz granic...
+* ...chyba, że trafimy na wyrażenia nieoznaczone:
+$$$\frac{0}{0},\frac{\infty}{\infty},+\infty-\infty,0\cdot\infty,1^{\infty},0^0,\infty^0$$$
+* twierdzenie o 3 ciągach
+
+#### Pojawiło się "przy okazji":
+* [Twierdzenie Bézouta](https://www.youtube.com/watch?v=eEqJxQOsZ8U)
+* wzory skróconego mnożenia, wzory Viète'a (liceum!)
+
+###Do zapamiętania:
+$$$lim_{n\rightarrow\infty}\left(1+\frac{1}{n}\right)^n=e$$$
+* Jeśli $$a_n\rightarrow\pm \infty\ $$  to  $$\ lim_{n\rightarrow\infty}\left(1+\frac{1}{a_n}\right)^{a_n}=e$$
+
+###Przykładowe ćwiczenia:
+$$$lim_{n\rightarrow\infty}\frac{(4n+3)(n-1)}{(4n-3)(n^2+5)}$$$
+$$$lim_{n\rightarrow\infty}\left(\frac{n+1}{2n+3}\right)^{\frac{1}{2}}$$$
+$$$lim_{n\rightarrow\infty}\left(1-\frac{1}{2n}\right)^{n+1}$$$
+$$$lim_{n\rightarrow\infty}\frac{(2n+1)^2-4n^2}{(2n+1)^2+4n^2}$$$
+
+## Funkcje
+
+###Key points:
+* funkcje mają dziedziny i wypada je wyznaczyć
+* funkcja różnowartościowa + "na" = bijekcja = **odwracalna**
+* złożenie funkcji: $$(g\circ f)(x)=g(f(x))$$
+
+###Do zapamiętania:
+$$$lim_{x\rightarrow 0^{+}}\frac{1}{1-x}=-\infty$$$
+
+###Przykładowe ćwiczenia:
+Wszystkie poniższe przykłady są prawie identyczne jak te, które robiliśmy na ćwiczeniach. Można przećwiczyć w domu.
+$$$lim_{x\rightarrow\infty}\frac{-4x^4+2x^2+5}{x^4-8x^2}$$$
+$$$lim_{x\rightarrow \sqrt{2}}\frac{x-4\sqrt{x}+4}{(\sqrt{x}-2)}$$$
+$$$lim_{x\rightarrow 1}\frac{3}{(1-x)^3}$$$
