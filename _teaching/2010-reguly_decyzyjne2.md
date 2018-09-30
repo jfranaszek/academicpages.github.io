@@ -7,5 +7,3 @@ venue: "Warsaw School of Economics"
 date: 2010-10-01
 location: "Warsaw, Poland"
 ---
-
-Computer lab in R on statistical learning
