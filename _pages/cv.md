@@ -12,7 +12,7 @@ redirect_from:
 Education
 ======
 * Ph.D. in Economics, European University Institute, 2018
-* M.A. in Quantitavie Methods in Economics, Warsaw School of Economics, 2011
+* M.A. in Quantitative Methods in Economics, Warsaw School of Economics, 2011
 * M.Sc. in Mathematics, University of Warsaw, 2010
 * B.A. in Economics, University of Warsaw, 2008
 
