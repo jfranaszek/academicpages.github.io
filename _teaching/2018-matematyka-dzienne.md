@@ -8,4 +8,4 @@ date: 2018-10-01
 location: "Warsaw, Poland"
 ---
 
-Ćwiczenia 1: Granice ciągów. [[notatki]](mat-dz/dzmat-cw1.html)
+Ćwiczenia 1: Granice ciągów. [[notatki]](https://jfranaszek.github.io/mat-dz/dzmat-cw1.html)
