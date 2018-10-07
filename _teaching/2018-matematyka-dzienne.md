@@ -7,4 +7,5 @@ venue: "Warsaw School of Economics"
 date: 2018-10-01
 location: "Warsaw, Poland"
 ---
-_(soon)_
+
+Ćwiczenia 1: Granice ciągów. [[notatki]](mat-dz/dzmat-cw1.html)
