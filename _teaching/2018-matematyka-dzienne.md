@@ -9,3 +9,4 @@ location: "Warsaw, Poland"
 ---
 
 Ćwiczenia 1: Granice ciągów. [[notatki]](https://jfranaszek.github.io/mat-dz/dzmat-cw1.html)
+Ćwiczenia 2: Funkcje i ich dziedziny, granice i asymptoty. [[notatki]](https://jfranaszek.github.io/mat-dz/dzmat-cw2.html)
