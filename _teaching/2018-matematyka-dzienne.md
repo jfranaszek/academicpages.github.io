@@ -12,5 +12,6 @@ location: "Warsaw, Poland"
 Ćwiczenia 3: Pochodne. Przebieg zmienności funkcji. [[notatki]](https://jfranaszek.github.io/mat-dz/dzmat-cw3.html)  
 Ćwiczenia 4: Reguła de l'Hospitala. Ekstrema i kresy funkcji. [[notatki]](https://jfranaszek.github.io/mat-dz/dzmat-cw4.html)  
 Ćwiczenia 5: Druga pochodna. Badanie zmienności funkcji. [[notatki]](https://jfranaszek.github.io/mat-dz/dzmat-cw5.html)  
+Ćwiczenia 6: Funkcje dwóch zmiennych. Ekstrema (bezwarunkowe). [[notatki]](https://jfranaszek.github.io/mat-dz/dzmat-cw6.html)  
   
 [Punkty za aktywność](https://jfranaszek.github.io/mat-dz/punktydzienne.pdf) (lista będzie uaktualniania, proszę o korekty na bieżąco)
