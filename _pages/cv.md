@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 {% include base_path %}
-A full resume can be downloaded [here](./files/cv_1807.pdf)
+A full resume can be found [here](https://jfranaszek.github.io/files/cv_1807.pdf)
 
 Education
 ======
@@ -44,13 +44,21 @@ Skills
   
 Conferences & workshops
 ======
+* Econometric Society European Winter Meeting, upcoming
+* Hurwicz Workshop, upcoming
 * (Ce)<sup>2</sup> Workshop 2017, 2018
 * Warsaw Economic Seminar (multiple presentations)
 * Econometric Society Summer School in Kyoto 2016 (attendee)
 * World Congress of the Game Theory Society 2012 (attendee)
-  
+
+Professional experience
+=====
+* Instutute for Structural Research, since 2018
+* Aviva Life, 2010-11
+
 Hobbies
 ======
 * blog [Hummus Œconomicus](http://hummuseconomicus.pl)
+* think-tank [Dobrobyt na Pokolenia](http://napokolenia.pl/)
 * photography
 * early education
