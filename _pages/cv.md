@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 {% include base_path %}
-A full resume can be found [here](https://jfranaszek.github.io/files/cv_1807.pdf)
+A full resume in PDF can be found [*here.*](https://jfranaszek.github.io/files/cv_1807.pdf)
 
 Education
 ======
