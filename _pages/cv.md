@@ -8,6 +8,7 @@ redirect_from:
 ---
 
 {% include base_path %}
+A full resume can be downloaded [here](./files/cv_1807.pdf)
 
 Education
 ======
