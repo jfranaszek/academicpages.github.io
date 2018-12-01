@@ -16,4 +16,4 @@ location: "Warsaw, Poland"
 Ćwiczenia 7: Funkcje dwóch zmiennych. Ekstrema warunkowe. [[notatki]](https://jfranaszek.github.io/mat-dz/dzmat-cw7.html)  
 [Zadania do poćwiczenia przed kolokwium (aktualizacja)](https://jfranaszek.github.io/mat-dz/mat-zadania_kol1.html)
   
-[Punkty za aktywność](https://jfranaszek.github.io/mat-dz/punktydzienne.pdf) (lista będzie uaktualniania, proszę o korekty na bieżąco)
+[WYNIKI KOLOKWIUM + pkty za aktywność](https://jfranaszek.github.io/mat-dz/punkty_181201.pdf) 
