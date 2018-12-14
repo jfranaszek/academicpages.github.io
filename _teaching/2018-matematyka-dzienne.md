@@ -15,7 +15,7 @@ location: "Warsaw, Poland"
 Ćwiczenia 6: Funkcje dwóch zmiennych. Ekstrema (bezwarunkowe). [[notatki]](https://jfranaszek.github.io/mat-dz/dzmat-cw6.html)  
 Ćwiczenia 7: Funkcje dwóch zmiennych. Ekstrema warunkowe. [[notatki]](https://jfranaszek.github.io/mat-dz/dzmat-cw7.html)  
 [Zadania do poćwiczenia przed kolokwium (aktualizacja)](https://jfranaszek.github.io/mat-dz/mat-zadania_kol1.html)  
-Ćwiczenia 8: Kolokwium. Całki nieoznaczone. [[notatki będą]]  
+Ćwiczenia 8: Kolokwium. Całki nieoznaczone. [notatki będą]  
 [Wyniki kolokwium (NOWE!) + pkty **stan na 14.12**](https://jfranaszek.github.io/mat-dz/punkty_181212.pdf)   
-Ćwiczenia 9: (nie ze mną) Całki oznaczone [[będą zadania]]  
-Ćwiczenia 10: Wektory i podprzestrzenie liniowe w $$R^2$$ i $$R^3$$.  
+Ćwiczenia 9: (nie ze mną) Całki oznaczone [będą zadania]  
+Ćwiczenia 10: Wektory i podprzestrzenie liniowe w $$R^2$$ i $$R^3$$. [notatki będą]  
