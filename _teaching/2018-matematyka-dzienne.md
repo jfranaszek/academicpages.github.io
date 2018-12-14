@@ -14,8 +14,11 @@ location: "Warsaw, Poland"
 Ćwiczenia 5: Druga pochodna. Badanie zmienności funkcji. [[notatki]](https://jfranaszek.github.io/mat-dz/dzmat-cw5.html)  
 Ćwiczenia 6: Funkcje dwóch zmiennych. Ekstrema (bezwarunkowe). [[notatki]](https://jfranaszek.github.io/mat-dz/dzmat-cw6.html)  
 Ćwiczenia 7: Funkcje dwóch zmiennych. Ekstrema warunkowe. [[notatki]](https://jfranaszek.github.io/mat-dz/dzmat-cw7.html)  
-[Zadania do poćwiczenia przed kolokwium (aktualizacja)](https://jfranaszek.github.io/mat-dz/mat-zadania_kol1.html)  
-Ćwiczenia 8: Kolokwium. Całki nieoznaczone. [notatki będą]  
-[Wyniki kolokwium (NOWE!) + pkty **stan na 14.12**](https://jfranaszek.github.io/mat-dz/punkty_dzienne_181212.pdf)   
-Ćwiczenia 9: (nie ze mną) Całki oznaczone [będą zadania]  
+Ćwiczenia 8: Kolokwium. Całki nieoznaczone. [[notatki]](https://jfranaszek.github.io/mat-dz/dzmat-cw8.html)  
+Ćwiczenia 9: (nieobecność) Całki oznaczone. [zadania poniżej]
 Ćwiczenia 10: Wektory i podprzestrzenie liniowe w $$R^2$$ i $$R^3$$. [notatki będą]  
+
+[Zadania do poćwiczenia - ćw. 1-7](https://jfranaszek.github.io/mat-dz/mat-zadania_kol1.html)  
+[Zadania z całek - ćw. 8-9](https://jfranaszek.github.io/mat-dz/dzmat-cw9.html)
+[Kolokwium wersja A](https://jfranaszek.github.io/mat-dz/Kolokwium_mat_dzienna_1_A.pdf)[Kolokwium wersja B](https://jfranaszek.github.io/mat-dz/Kolokwium_mat_dzienna_1_B.pdf)  
+[Wyniki kolokwium (NOWE!) + pkty **stan na 14.12**](https://jfranaszek.github.io/mat-dz/punkty_dzienne_181212.pdf)   
