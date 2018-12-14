@@ -19,6 +19,6 @@ location: "Warsaw, Poland"
 Ćwiczenia 10: Wektory i podprzestrzenie liniowe w $$R^2$$ i $$R^3$$. [notatki będą]  
 
 [Zadania do poćwiczenia - ćw. 1-7](https://jfranaszek.github.io/mat-dz/mat-zadania_kol1.html)  
-[Zadania z całek - ćw. 8-9](https://jfranaszek.github.io/mat-dz/dzmat-cw9.html)
-[Kolokwium wersja A](https://jfranaszek.github.io/mat-dz/Kolokwium_mat_dzienna_1_A.pdf)[Kolokwium wersja B](https://jfranaszek.github.io/mat-dz/Kolokwium_mat_dzienna_1_B.pdf)  
+[Zadania z całek - ćw. 8-9](https://jfranaszek.github.io/mat-dz/dzmat-cw9.html)  
+[Kolokwium wersja A](https://jfranaszek.github.io/mat-dz/Kolokwium_mat_dzienna_1_A.pdf) [Kolokwium wersja B](https://jfranaszek.github.io/mat-dz/Kolokwium_mat_dzienna_1_B.pdf)  
 [Wyniki kolokwium (NOWE!) + pkty **stan na 14.12**](https://jfranaszek.github.io/mat-dz/punkty_dzienne_181212.pdf)   
