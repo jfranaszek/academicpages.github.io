@@ -10,4 +10,6 @@ location: "Warsaw, Poland"
 Ćwiczenia nr 1: Granice ciągów i prostych funkcji [[notatki]](/mat-niest/mat-cw1.html)  
 Ćwiczenia nr 2: Badanie funkcji z użyciem pierwszej pochodnej [[notatki]](/mat-niest/mat-cw2.html)  
 Ćwiczenia nr 3: Badanie funkcji z użyciem obu pochodnych. [[notatki]](/mat-niest/mat-cw3.html)  
-Ćwiczenia nr 4: [Wyniki kolokwium + pkty za aktywność](/mat-niest/punkty_niest.pdf) 
+Ćwiczenia nr 4: Kolokwium. Optymalizacja funkcji dwóch zmiennych. [[notatki]](/mat-niest/mat-cw4.html)  
+Ćwiczenia nr 5: Całki. [[notatki]](/mat-niest/mat-cw5.html)  
+[Wyniki kolokwium + pkty za aktywność](/mat-niest/punkty_niest.pdf) 
