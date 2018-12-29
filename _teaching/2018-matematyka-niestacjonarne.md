@@ -12,4 +12,5 @@ location: "Warsaw, Poland"
 Ćwiczenia nr 3: Badanie funkcji z użyciem obu pochodnych. [[notatki]](/mat-niest/mat-cw3.html)  
 Ćwiczenia nr 4: Kolokwium. Optymalizacja funkcji dwóch zmiennych. [[notatki]](/mat-niest/mat-cw4.html)  
 Ćwiczenia nr 5: Całki. [[notatki]](/mat-niest/mat-cw5.html)  
+[Zadania przygotowawcze do II kolokwium](/mat-niest/mat-niest-zad-kol2.html)  
 [Wyniki kolokwium + pkty za aktywność](/mat-niest/punkty_niest.pdf) 
