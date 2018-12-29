@@ -13,4 +13,4 @@ location: "Warsaw, Poland"
 Ćwiczenia nr 4: Kolokwium. Optymalizacja funkcji dwóch zmiennych. [[notatki]](/mat-niest/mat-cw4.html)  
 Ćwiczenia nr 5: Całki. [[notatki]](/mat-niest/mat-cw5.html)  
 [Zadania przygotowawcze do II kolokwium](/mat-niest/mat-nst-zad-kol2.html)  
-[Wyniki kolokwium + pkty za aktywność (stan na koniec 2018)](/mat-niest/punkty_niest.pdf) 
+[Wyniki kolokwium + pkty za aktywność](/mat-niest/punkty_niest.pdf) (stan na koniec 2018)
