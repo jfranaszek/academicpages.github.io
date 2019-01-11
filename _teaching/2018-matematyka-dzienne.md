@@ -21,5 +21,7 @@ location: "Warsaw, Poland"
 
 [Zadania do poćwiczenia - ćw. 1-7.](https://jfranaszek.github.io/mat-dz/mat-zadania_kol1.html)  
 [Zadania z całek - ćw. 8-9.](https://jfranaszek.github.io/mat-dz/dzmat-cw9.html)  
+(NOWE)[Zadania przed 2. kolokwium](https://jfranaszek.github.io/mat-dz/mat-st-zad-kol2.html)    
+
 [Kolokwium wersja A.](https://jfranaszek.github.io/mat-dz/Kolokwium_mat_dzienna_1_A.pdf) [Kolokwium wersja B.](https://jfranaszek.github.io/mat-dz/Kolokwium_mat_dzienna_1_B.pdf)  
 [Wyniki kolokwium + pkty stan na 1.01.](https://jfranaszek.github.io/mat-dz/punkty_dzienne_190101.pdf)   
