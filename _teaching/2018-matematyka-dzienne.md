@@ -18,7 +18,7 @@ location: "Warsaw, Poland"
 Ćwiczenia 9: (nieobecność) Całki oznaczone. [zadania poniżej]  
 Ćwiczenia 10: Wektory i podprzestrzenie liniowe w R^2 i R^3. [[notatki]](https://jfranaszek.github.io/mat-dz/dzmat-cw10.html)  
 Ćwiczenia 11: Macierze. Dodawanie, mnożenie, rząd, wyznacznik. [[notatki]](/mat-dz/dzmat-cw11.html)  
-Ćwiczenia 12: Macierze. Operacje elementarne, odwracanie. [[notatki]](/mat-dz/dzmat-cw12.html)
+Ćwiczenia 12: Macierze. Operacje elementarne, odwracanie. [[notatki]](/mat-dz/dzmat-cw12.html)  
 Ćwiczenia 13: Układy równań liniowych. [[notatki]](/mat-dz/dzmat-cw13.html)  
 
 
