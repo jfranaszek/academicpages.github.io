@@ -44,8 +44,8 @@ Skills
   
 Conferences & workshops
 ======
-* Econometric Society European Winter Meeting, upcoming
-* Hurwicz Workshop, upcoming
+* Econometric Society European Winter Meeting 2018
+* Hurwicz Workshop 2018
 * (Ce)<sup>2</sup> Workshop 2017, 2018
 * Warsaw Economic Seminar (multiple presentations)
 * Econometric Society Summer School in Kyoto 2016 (attendee)
