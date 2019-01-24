@@ -19,12 +19,15 @@ location: "Warsaw, Poland"
 Ćwiczenia 10: Wektory i podprzestrzenie liniowe w R^2 i R^3. [[notatki]](https://jfranaszek.github.io/mat-dz/dzmat-cw10.html)  
 Ćwiczenia 11: Macierze. Dodawanie, mnożenie, rząd, wyznacznik. [[notatki]](/mat-dz/dzmat-cw11.html)  
 Ćwiczenia 12: Macierze. Operacje elementarne, odwracanie. [[notatki]](/mat-dz/dzmat-cw12.html)  
-Ćwiczenia 13: Układy równań liniowych. [[notatki]](/mat-dz/dzmat-cw13.html)  
+Ćwiczenia 13: Układy równań liniowych. [[notatki]](/mat-dz/dzmat-cw13.html)
+Ćwiczenia 14: Kolokwium. Jeszcze trochę o układach (notatki dorzucę do ćw. 13).
+Ćwiczenia 15: Powtórka przed egzaminem. *Proszę przygotować pytania :)*
 
 
 [Zadania do poćwiczenia - ćw. 1-7.](https://jfranaszek.github.io/mat-dz/mat-zadania_kol1.html)  
 [Zadania z całek - ćw. 8-9.](https://jfranaszek.github.io/mat-dz/dzmat-cw9.html)  
 [Zadania przed 2. kolokwium](https://jfranaszek.github.io/mat-dz/mat-st-zad-kol2.html)    
 
-[Kolokwium I wersja A.](https://jfranaszek.github.io/mat-dz/Kolokwium_mat_dzienna_1_A.pdf) [Kolokwium I wersja B.](https://jfranaszek.github.io/mat-dz/Kolokwium_mat_dzienna_1_B.pdf)  
+[Kolokwium I wersja A.](https://jfranaszek.github.io/mat-dz/Kolokwium_mat_dzienna_1_A.pdf)
+[](https://jfranaszek.github.io/mat-dz/Kolokwium_mat_dzienna_2B.pdf)
 (NOWE) [Wyniki obu kolokwiów](https://jfranaszek.github.io/mat-dz/punkty_dzienne_190121.pdf)   
