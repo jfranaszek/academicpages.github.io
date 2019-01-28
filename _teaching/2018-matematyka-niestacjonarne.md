@@ -13,6 +13,6 @@ location: "Warsaw, Poland"
 Ćwiczenia nr 4: Kolokwium. Optymalizacja funkcji dwóch zmiennych. [[notatki]](/mat-niest/mat-cw4.html)  
 Ćwiczenia nr 5: Całki. [[notatki]](/mat-niest/mat-cw5.html)  
 Ćwiczenia nr 6: Macierze. [[notatki]](/mat-niest/mat-cw6.html)
-Ćwiczenia nr 7: Układy równań liniowych. [[notatki]](/mat-niest/mat-cw7.html)
+Ćwiczenia nr 7: Układy równań liniowych. [[notatki]](/mat-niest/mat-cw7.html)  
 [Zadania przygotowawcze do II kolokwium](/mat-niest/mat-nst-zad-kol2.html)  
 [Wyniki obu kolokwiów + pkty za aktywność + e-learning](/mat-niest/punkty_nst_190124.pdf) (ostateczne)
