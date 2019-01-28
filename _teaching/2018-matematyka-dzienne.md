@@ -29,5 +29,5 @@ location: "Warsaw, Poland"
 [Zadania przed 2. kolokwium](https://jfranaszek.github.io/mat-dz/mat-st-zad-kol2.html)    
 
 [Kolokwium I wersja A.](https://jfranaszek.github.io/mat-dz/Kolokwium_mat_dzienna_1_A.pdf)
-[](https://jfranaszek.github.io/mat-dz/Kolokwium_mat_dzienna_2B.pdf)  
+[Kolokwium II wersja B.](https://jfranaszek.github.io/mat-dz/Kolokwium_mat_dzienna_2B.pdf)  
 (NOWE) [Wyniki obu kolokwiów + punkty podsumowane](https://jfranaszek.github.io/mat-dz/punkty_dzienne_190124.pdf)   
