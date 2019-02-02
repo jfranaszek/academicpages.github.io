@@ -30,4 +30,4 @@ location: "Warsaw, Poland"
 
 [Kolokwium I wersja A.](https://jfranaszek.github.io/mat-dz/Kolokwium_mat_dzienna_1_A.pdf)  
 [Kolokwium II wersja B.](https://jfranaszek.github.io/mat-dz/Kolokwium_mat_dzienna_2B.pdf)  
-(NOWE) [Wyniki obu kolokwiów + punkty podsumowane](https://jfranaszek.github.io/mat-dz/punkty_dzienne_190124.pdf)   
+(NOWE!) [**Punkty + oceny (prawie) FINAŁOWE**](https://jfranaszek.github.io/mat-dz/punkty_dzienne_190202.pdf)   
