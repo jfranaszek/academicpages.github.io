@@ -31,3 +31,4 @@ location: "Warsaw, Poland"
 [Kolokwium I wersja A.](https://jfranaszek.github.io/mat-dz/Kolokwium_mat_dzienna_1_A.pdf)  
 [Kolokwium II wersja B.](https://jfranaszek.github.io/mat-dz/Kolokwium_mat_dzienna_2B.pdf)  
 (NOWE! - 5.02) [**Punkty + oceny FINAŁOWE**](https://jfranaszek.github.io/mat-dz/punkty_dzienne_190205.pdf)   
+*Uwaga: po smutnej konstatacji, że inni ćwiczeniowcy byli zdecydowanie bardziej szczodrzy niż ja, zdecydowałam się (częściowo) poprawić swoje okropne zachowanie. Punkty za aktywność są obecnie po prostu jako min(rzeczywsta aktywność, 5). Zmieniło to ocenę jednej osobie. Dodatkowo, dwie osoby znalazły się 0,5 punkta od granicy, co uwzględniłam. Proszę zerknąć, jeśli ktoś jeszcze nagle zyskał szansę na lepszą ocenę. Jeszcze 6.02 o 14:45 można się ze mną umówić na oglądanie w 223G.*
