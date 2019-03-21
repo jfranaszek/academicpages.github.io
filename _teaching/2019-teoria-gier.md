@@ -9,7 +9,7 @@ location: "Warsaw, Poland"
 ---
 
 [Pierwsza praca domowa](/TG/TG_PS1.pdf)  
-[Druga praca domowa](/TG/TG_PS2.pdf)  
+[Druga praca domowa](/TG/TG_PS2.pdf)  (aktualizacja 21.03, drobne poprawki)
 Ankieta ws. terminu kolokwium [jest tu.](https://doodle.com/poll/4qc8qd3ya2ns5vwy)  
 Proszę o zaznaczenie, kiedy Państwo **nie mogą** do 12.04. Zastrzegam sobie prawo do ostatecznej decyzji.
 
