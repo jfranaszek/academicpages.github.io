@@ -9,8 +9,8 @@ location: "Warsaw, Poland"
 ---
 
 [Pierwsza praca domowa](/tg/TG_PS1.pdf)  
-[Druga praca domowa](/tg/TG_PS2.pdf)
-[Trzecia praca domowa](/tg/TG_PS3.pdf)
+[Druga praca domowa](/tg/TG_PS2.pdf)  
+[Trzecia praca domowa](/tg/TG_PS3.pdf)  
   
 [Punkty z PD1 + kartkówki](https://docs.google.com/spreadsheets/d/1JtxtCQzGrfSsfaxoSqyRq93USkA76k3x3O5ll3s9vPY/edit?usp=sharing)  
 Ankieta ws. terminu kolokwium [jest tu.](https://doodle.com/poll/4qc8qd3ya2ns5vwy)  
