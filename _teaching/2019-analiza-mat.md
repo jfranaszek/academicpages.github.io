@@ -1,5 +1,5 @@
 ---
-title: "Analiza Matematyczna dzienne 2018/2019"
+title: "Analiza Matematyczna - dzienne 2018/2019"
 collection: teaching
 type: "undergraduate course"
 permalink: /teaching/2019-analiza-mat
