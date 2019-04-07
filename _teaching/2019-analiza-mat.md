@@ -8,4 +8,4 @@ date: 2019-04-07
 location: "Warsaw, Poland"
 ---
 
-[Komentarze do ćwiczeń 5.04](/am/am20190407.html)
+[Komentarze do ćwiczeń 5.04](/am/am_20190407.html)
