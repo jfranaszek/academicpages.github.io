@@ -13,5 +13,5 @@ location: "Warsaw, Poland"
 [Trzecia praca domowa](/tg/TG_PS3.pdf)  
   
 [Punkty z PD1 + kartkówki](https://docs.google.com/spreadsheets/d/1JtxtCQzGrfSsfaxoSqyRq93USkA76k3x3O5ll3s9vPY/edit?usp=sharing)  
-Kolokwium odbędzie się 21 maja 8:00 Aula VII.  
+Kolokwium odbędzie się **21 maja 8:00, Aula VII.**  
 Proszę o informację mailową, kto nie może przyjść w tym terminie - dla tych osób odbędzie się termin dodatkowy, najprawdopodobniej 23 maja o godz. 18:00, salę podam później.
