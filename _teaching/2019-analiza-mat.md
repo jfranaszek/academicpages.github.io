@@ -8,4 +8,6 @@ date: 2019-04-07
 location: "Warsaw, Poland"
 ---
 
+[Wyniki I kolokwium](https://docs.google.com/spreadsheets/d/17zIpGAT_4g4xQ5MIK7rMGB8Tq17xIiux6Ly07IrYV1Q/edit?usp=sharing)  
+(wstępne, przed negocjacjami)  
 [Komentarze do ćwiczeń 5.04](/am/am_20190407.html)
