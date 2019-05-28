@@ -18,4 +18,3 @@ location: "Warsaw, Poland"
 [Kartkówka nr 1](/tg/TG_kartkowka.pdf) [Kartkówka nr 2](/tg/TG_kartkowka2.pdf)  
   
 [Punkty z PD1-PD4 + kartkówki + kolokwium](https://docs.google.com/spreadsheets/d/1JtxtCQzGrfSsfaxoSqyRq93USkA76k3x3O5ll3s9vPY/edit?usp=sharing)  
-Ostatnia praca domowa zawiśnie 29.05 z terminem do 5.06. 
