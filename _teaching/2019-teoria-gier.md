@@ -16,5 +16,4 @@ location: "Warsaw, Poland"
 [Kartkówka nr 1](/tg/TG_kartkowka.pdf) [Kartkówka nr 2](/tg/TG_kartkowka2.pdf)  
   
 [Punkty z PD1 + PD2 + kartkówki + kolokwium](https://docs.google.com/spreadsheets/d/1JtxtCQzGrfSsfaxoSqyRq93USkA76k3x3O5ll3s9vPY/edit?usp=sharing)  
-Kolokwium odbędzie się **21 maja 8:00, Aula VII.**  
-Proszę o informację mailową, kto nie może przyjść w tym terminie - dla tych osób odbędzie się termin dodatkowy: 23 maja o godz. 17:50, sala 151 G.
+Ostatnia praca domowa zawiśnie 29.05 z terminem do 5.06. 
