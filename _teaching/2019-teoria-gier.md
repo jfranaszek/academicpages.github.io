@@ -11,7 +11,7 @@ location: "Warsaw, Poland"
 [Pierwsza praca domowa](/tg/TG_PS1.pdf)  
 [Druga praca domowa](/tg/TG_PS2.pdf)  
 [Trzecia praca domowa](/tg/TG_PS3.pdf)  
-[Czwarta praca domowa](/tg/TG_PS4.pdf)
+[Czwarta praca domowa](/tg/TG_PS4.pdf)  
 [Piąta praca domowa](/tg/TG_PS5.pdf)
   
 [Przykładowe zadania z zajęć](/tg/sample_tg.pdf)  
