@@ -44,7 +44,9 @@ Skills
   
 Conferences & workshops
 ======
-* Econometric Society European Winter Meeting 2018
+* SAET Conference, Ischia 2019
+* RES Annual Meeting, Coventry 2019
+* Econometric Society European Winter Meeting, Naples 2018
 * Hurwicz Workshop 2018
 * (Ce)<sup>2</sup> Workshop 2017, 2018
 * Warsaw Economic Seminar (multiple presentations)
