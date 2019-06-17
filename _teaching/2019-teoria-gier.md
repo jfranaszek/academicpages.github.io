@@ -18,4 +18,4 @@ location: "Warsaw, Poland"
 [Kartkówka nr 1](/tg/TG_kartkowka.pdf) [Kartkówka nr 2](/tg/TG_kartkowka2.pdf)  
 [Kolokwium](/tg/TG_kolokwium_1905.pdf)  
   
-[Punkty + propozycje ocen](https://docs.google.com/spreadsheets/d/1JtxtCQzGrfSsfaxoSqyRq93USkA76k3x3O5ll3s9vPY/edit?usp=sharing)  
+[](https://docs.google.com/spreadsheets/d/1JtxtCQzGrfSsfaxoSqyRq93USkA76k3x3O5ll3s9vPY/edit?usp=sharing)  
