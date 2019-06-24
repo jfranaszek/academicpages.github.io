@@ -15,4 +15,3 @@ location: "Warsaw, Poland"
 Ćwiczenia nr 6: Macierze. [[notatki]](/mat-niest/mat-cw6.html)
 Ćwiczenia nr 7: Układy równań liniowych. [[notatki]](/mat-niest/mat-cw7.html)  
 [Zadania przygotowawcze do II kolokwium](/mat-niest/mat-nst-zad-kol2.html)  
-[](/mat-niest/punkty_nst_190202.pdf)
