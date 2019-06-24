@@ -16,4 +16,4 @@ location: "Warsaw, Poland"
   
 [Przykładowe zadania z zajęć](/tg/sample_tg.pdf)  
 [Kartkówka nr 1](/tg/TG_kartkowka.pdf) [Kartkówka nr 2](/tg/TG_kartkowka2.pdf)  
-[Kolokwium](/tg/TG_kolokwium_1905.pdf)  
+[Kolokwium](/tg/TG_kolokwium_1905.pdf)
