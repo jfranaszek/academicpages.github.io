@@ -7,7 +7,7 @@ venue: "Warsaw School of Economics"
 date: 2018-10-01
 location: "Warsaw, Poland"
 ---
-Ćwiczenia 1: Granice ciągów. [[notatki]](https://jfranaszek.github.io/mat-dz/dzmat-cw1.html)  
+<!---Ćwiczenia 1: Granice ciągów. [[notatki]](https://jfranaszek.github.io/mat-dz/dzmat-cw1.html)  
 Ćwiczenia 2: Funkcje i ich dziedziny, granice i asymptoty. [[notatki]](https://jfranaszek.github.io/mat-dz/dzmat-cw2.html)  
 Ćwiczenia 3: Pochodne. Przebieg zmienności funkcji. [[notatki]](https://jfranaszek.github.io/mat-dz/dzmat-cw3.html)  
 Ćwiczenia 4: Reguła de l'Hospitala. Ekstrema i kresy funkcji. [[notatki]](https://jfranaszek.github.io/mat-dz/dzmat-cw4.html)  
@@ -27,6 +27,7 @@ location: "Warsaw, Poland"
 [Zadania do poćwiczenia - ćw. 1-7.](https://jfranaszek.github.io/mat-dz/mat-zadania_kol1.html)  
 [Zadania z całek - ćw. 8-9.](https://jfranaszek.github.io/mat-dz/dzmat-cw9.html)  
 [Zadania przed 2. kolokwium](https://jfranaszek.github.io/mat-dz/mat-st-zad-kol2.html)    
+--->
 
 [Kolokwium I wersja A.](https://jfranaszek.github.io/mat-dz/Kolokwium_mat_dzienna_1_A.pdf)  
 [Kolokwium II wersja B.](https://jfranaszek.github.io/mat-dz/Kolokwium_mat_dzienna_2B.pdf)
