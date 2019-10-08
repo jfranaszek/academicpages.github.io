@@ -21,7 +21,7 @@ location: "Warsaw, Poland"
 Ćwiczenia 12: Macierze. Operacje elementarne, odwracanie. [[notatki]](/mat-dz/dzmat-cw12.html)  
 Ćwiczenia 13: Układy równań liniowych. [[notatki]](/mat-dz/dzmat-cw13.html)  
 Ćwiczenia 14: Kolokwium. Jeszcze trochę o układach (notatki dorzucę do ćw. 13)    
-Ćwiczenia 15: Powtórka przed egzaminem. *Proszę przygotować pytania :)* --->
+Ćwiczenia 15: Powtórka przed egzaminem. *Proszę przygotować pytania :)* 
 
 
 [Zadania do poćwiczenia - ćw. 1-7.](https://jfranaszek.github.io/mat-dz/mat-zadania_kol1.html)  
@@ -29,4 +29,4 @@ location: "Warsaw, Poland"
 [Zadania przed 2. kolokwium](https://jfranaszek.github.io/mat-dz/mat-st-zad-kol2.html)    
 
 [Kolokwium I wersja A.](https://jfranaszek.github.io/mat-dz/Kolokwium_mat_dzienna_1_A.pdf)  
-[Kolokwium II wersja B.](https://jfranaszek.github.io/mat-dz/Kolokwium_mat_dzienna_2B.pdf)
+[Kolokwium II wersja B.](https://jfranaszek.github.io/mat-dz/Kolokwium_mat_dzienna_2B.pdf)--->
