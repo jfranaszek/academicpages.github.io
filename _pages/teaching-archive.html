@@ -1,0 +1,14 @@
+---
+layout: archive
+title: "Teaching archive"
+permalink: /teaching-archive/
+author_profile: true
+---
+{% include base_path %}
+
+{% assign sorted = (site.teaching | sort: 'date') | reverse %}
+{% for post in sorted %}
+  {% include archive-single.html %}
+{% endfor %}
+
+<it>If not explicitly given, notes available upon request.</it>
