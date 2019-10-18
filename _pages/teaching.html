@@ -10,7 +10,7 @@ author_profile: true
 {% include base_path %}
 
 {% assign sorted = (site.teaching | sort: 'date') | reverse %}
-{% for post in site.teaching limit:3 %}
+{% for post in sorted limit:3 %}
   {% include archive-single.html %}
 {% endfor %}
 
