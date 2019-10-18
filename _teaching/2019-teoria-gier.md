@@ -1,7 +1,7 @@
 ---
 title: "Teoria gier dzienne 2018/2019"
 collection: teaching
-type: "undergraduate course"
+type: "graduate course"
 permalink: /teaching/2019-teoria-gier
 venue: "Warsaw School of Economics"
 date: 2019-02-27
