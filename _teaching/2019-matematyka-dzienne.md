@@ -7,6 +7,6 @@ venue: "Warsaw School of Economics"
 date: 2019-10-01
 location: "Warsaw, Poland"
 ---
-Ćwiczenia 1: Granice ciągów. [[notatki]](https://jfranaszek.github.io/mat-dz/dzmat-cw1.html)  
-Ćwiczenia 2: Funkcje i ich dziedziny, granice i asymptoty. [[notatki]](https://jfranaszek.github.io/mat-dz/dzmat-cw2.html)  
-Ćwiczenia 3: Pochodne. Przebieg zmienności funkcji. [[notatki]](https://jfranaszek.github.io/mat-dz/dzmat-cw3.html)  
+Ćwiczenia 1: Granice ciągów. [[notatki]](https://jfranaszek.github.io/mat-dz/mat-st-20191004.html)  
+Ćwiczenia 2: Liczba Eulera. Funkcje i ich dziedziny. Granice. [[notatki]](https://jfranaszek.github.io/mat-dz/mat-st-20191011.html)  
+Ćwiczenia 3: Granice. Pochodne. [[notatki]](https://jfranaszek.github.io/mat-dz/mat-st-20191018.html)  
