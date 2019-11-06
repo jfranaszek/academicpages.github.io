@@ -7,5 +7,5 @@ venue: "Warsaw School of Economics"
 date: 2019-10-02
 location: "Warsaw, Poland"
 ---
-[Slajdy z wykładów](/wtg/wyklad_z_wtg.pdf)
+[Slajdy z wykładów](/wtg/wyklad_z_wtg.pdf)  
 [Pierwsza praca domowa](/wtg/WTG_PS1.pdf) Termin: 20.11.2019.
