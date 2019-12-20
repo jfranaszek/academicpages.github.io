@@ -11,4 +11,6 @@ location: "Warsaw, Poland"
 Ćwiczenia 2: Liczba Eulera. Funkcje i ich dziedziny. Granice. [[notatki]](https://jfranaszek.github.io/mat-dz/mat-st-20191011.html)  
 Ćwiczenia 3: Granice. Pochodne. [[notatki]](https://jfranaszek.github.io/mat-dz/mat-st-20191018.html)  
 
-[NOWE!][[Wstępne (przed negocjacjami) wyniki kolokwium]](https://docs.google.com/spreadsheets/d/1ErRKTHzm6GZJ2MgksIf8a14KFvjpzVQMKfNjterNquU/edit?usp=sharing)  
+[Zadania z wektorów i macierzy](https://jfranaszek.github.io/mat-dz/201912_zadania_wek_mat.html)
+
+[[Wyniki I kolokwium]](https://docs.google.com/spreadsheets/d/1ErRKTHzm6GZJ2MgksIf8a14KFvjpzVQMKfNjterNquU/edit?usp=sharing)  
