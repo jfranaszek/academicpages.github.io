@@ -7,10 +7,8 @@ venue: "Warsaw School of Economics"
 date: 2019-10-01
 location: "Warsaw, Poland"
 ---
-Ćwiczenia 1: Granice ciągów. [[notatki]](https://jfranaszek.github.io/mat-dz/mat-st-20191004.html)  
-Ćwiczenia 2: Liczba Eulera. Funkcje i ich dziedziny. Granice. [[notatki]](https://jfranaszek.github.io/mat-dz/mat-st-20191011.html)  
-Ćwiczenia 3: Granice. Pochodne. [[notatki]](https://jfranaszek.github.io/mat-dz/mat-st-20191018.html)  
-
 [Zadania z wektorów i macierzy](https://jfranaszek.github.io/mat-dz/201912_zadania_wek_mat.html)
 
-[[Wyniki I kolokwium]](https://docs.google.com/spreadsheets/d/1ErRKTHzm6GZJ2MgksIf8a14KFvjpzVQMKfNjterNquU/edit?usp=sharing)  
+[[Wyniki I kolokwium]](https://docs.google.com/spreadsheets/d/1ErRKTHzm6GZJ2MgksIf8a14KFvjpzVQMKfNjterNquU/edit?usp=sharing)   
+
+[Doodle z terminem dodatkowych konsultacji przed egzaminem](https://doodle.com/poll/4fy2cu6w9esr5i64)  
