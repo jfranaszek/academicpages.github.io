@@ -10,4 +10,5 @@ location: "Warsaw, Poland"
 [Slajdy z wykładów](/wtg/wyklad_z_wtg.pdf) (aktualizacja 8.01)  
 [Pierwsza praca domowa](/wtg/WTG_PS1.pdf) Termin: 20.11.2019.  
 [Druga praca domowa](/wtg/WTG_PS2.pdf) Termin: 8.01.2020 lub 18.12.2019 (+1)  
-
+[Kolokwium](wtg/WTG_kolokwium.pdf)  
+[Wyniki kolokwium + oceny](https://docs.google.com/spreadsheets/d/1bYw6YvvVUTc9H4CvJaKnsaKunJ8ZT9sH4_2-tvx1RiI/edit)   
