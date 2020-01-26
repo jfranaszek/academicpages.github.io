@@ -9,6 +9,4 @@ location: "Warsaw, Poland"
 ---
 [Zadania z wektorów i macierzy](https://jfranaszek.github.io/mat-dz/201912_zadania_wek_mat.html)
 
-[[Wyniki I kolokwium]](https://docs.google.com/spreadsheets/d/1ErRKTHzm6GZJ2MgksIf8a14KFvjpzVQMKfNjterNquU/edit?usp=sharing)   
-
-[Doodle z terminem dodatkowych konsultacji przed egzaminem](https://doodle.com/poll/4fy2cu6w9esr5i64)  
+[[Wyniki I i II kolokwium]](https://docs.google.com/spreadsheets/d/1cSytYmVwmZ-HJ79OZrYfKanmbiHvxAVXxB0v9onZms8/edit?usp=sharing)   
