@@ -9,4 +9,6 @@ location: "Warsaw, Poland"
 ---
 [Zadania z wektorów i macierzy](https://jfranaszek.github.io/mat-dz/201912_zadania_wek_mat.html)
 
-[[Wyniki I i II kolokwium]](https://docs.google.com/spreadsheets/d/1cSytYmVwmZ-HJ79OZrYfKanmbiHvxAVXxB0v9onZms8/edit?usp=sharing)   
+[[Wyniki egzaminu i proponowane oceny]](https://docs.google.com/spreadsheets/d/17Ghjidd5cLL3HzU0kiKRaXC_N1WdEaC5lQFVcYGNS6w/edit?usp=sharing)   
+
+Oglądanie prac: poniedziałek, 3 lutego, godz. 10:00 w 115G  
