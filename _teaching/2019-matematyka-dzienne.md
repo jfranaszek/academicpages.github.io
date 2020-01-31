@@ -11,4 +11,4 @@ location: "Warsaw, Poland"
 
 [[Wyniki egzaminu i proponowane oceny]](https://docs.google.com/spreadsheets/d/17Ghjidd5cLL3HzU0kiKRaXC_N1WdEaC5lQFVcYGNS6w/edit?usp=sharing)   
 
-Oglądanie prac: poniedziałek, 3 lutego, godz. 10:00 w 115G  
+Oglądanie prac: poniedziałek, 3 lutego, godz. 10:00 w 105G  
