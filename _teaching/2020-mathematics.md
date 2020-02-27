@@ -1,5 +1,5 @@
 ---
-title: "Mathematics summer 2019/2020"
+title: "Mathematics 2020"
 collection: teaching
 type: "undergraduate course"
 permalink: /teaching/2020-mathematics/
