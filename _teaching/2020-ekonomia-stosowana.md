@@ -12,4 +12,4 @@ location: "Warsaw, Poland"
 Zajęcia 1-2:
 * [Kod w Matlabie](/ekon-stos/OLSinMatlab.m)
 * [Dane (.csv)](/ekon-stos/TableF2-2.csv)
-* [Praca domowa 1](PS1EkStosowana.pdf)
+* [Praca domowa 1](/ekon-stos/PS1EkStosowana.pdf)
