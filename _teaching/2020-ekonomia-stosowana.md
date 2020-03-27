@@ -14,6 +14,10 @@ Zajęcia ŁW::
 * [Dane (.csv)](/ekon-stos/TableF2-2.csv)
 * [Praca domowa 1](/ekon-stos/PS1EkStosowana.pdf)
 
+Zajęcia PK:
+* [Praca domowa 2](/ekon-stos/Zadanie_domowe_ES_PK.pdf)
+* [dane do PD2](/ekon-stos/data_homework.mat)
+
 Zajęcia MK:
 * [slajdy - popyt](/ekon-stos/ES_Demand.pdf)
 * [slajdy - popyt i podaż](/ekon-stos/ES_Demand_Supply.pdf)
