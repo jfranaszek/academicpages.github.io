@@ -1,0 +1,139 @@
+---
+title: "Ekonomia stosowana - matching markets"
+author: "Joanna Franaszek"
+date: "5 kwietnia 2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, cache=TRUE)
+```
+
+## Intro
+Na dzisiejszych zajęciach będziemy testować bibliotekę [matchingMarkets](https://cran.r-project.org/web/packages/matchingMarkets/index.html
+). Jeśli nie mamy biblioteki, należy ją oczywiście najpierw zainstalować z pomocą komendy. 
+```{r eval=FALSE}
+install.packages("matchingMarkets")
+```
+Jeśli biblioteka jest już zainstalowana, ładujemy ją poleceniem:
+
+```{r}
+library(matchingMarkets)
+rm(list=ls())
+```
+
+Zaczniemy od podstawowej funkcji *iaa.R* ktora pozwoli nam porównać algorytm bostoński (tj. *immediate-acceptance*) z algorytmem Gale-Shapley'a. Podejrzyjmy najpierw funkcję *iaa*.
+```{r eval=FALSE}
+help(iaa)
+```
+Pokazuje nam się pełny plik pomocy. Na razie najciekawsza dla nas jest składnia, która wygląda tak:
+```{r eval=FALSE}
+iaa(
+  nStudents = ncol(s.prefs),
+  nColleges = ncol(c.prefs),
+  nSlots = rep(1, nColleges),
+  s.prefs = NULL,
+  c.prefs = NULL,
+  acceptance = "immediate",
+  short_match = TRUE,
+  seed = NULL
+)
+```
+Resztę pomocy i przykłady możemy sobie pooglądać w [oficjalnym podręczniku biblioteki **matchingMarkets**](https://cran.r-project.org/web/packages/matchingMarkets/matchingMarkets.pdf)
+
+### Boston mechanism
+Zacznijmy od najprostszego przykładu z losowymi preferencjami studentów. Funkcja *set.seed* pozwala na ustalenie ziarna generatora, a zatem pozwala, by losowe preferencje były te same dla obu algorytmów, które chcemy porównać.
+
+Przyjmijmy, że chcemy dopasować 24 studentów do 3 uczelni, na każdej jest 6 miejsc. Preferencje ustawią się losowo, ale wydrukujmy je.
+```{r}
+set.seed(20)
+boston <- iaa(nStudents=24, nSlots=c(6,6,6))
+print(boston$s.prefs)
+print(boston$c.prefs)
+```
+
+Ostateczne dopasowanie 
+```{r}
+print(boston$matchings)
+```
+
+Kto się nie dostał do żadnej szkoły?
+```{r}
+print(boston$singles)
+```
+
+A ilu studentów - z tych, którzy się dostali - dostało się do szkoły pierwszego wyboru? 
+```{r}
+matchBoston <- data.frame(students=boston$matchings$student,college=boston$matchings$college)
+boston$s.prefs[1,matchBoston$students]==matchBoston$college
+```
+
+### Student-propose Deferred Acceptance
+
+Porównajmy wyniki z algorytmem DA
+```{r}
+set.seed(20)
+deferredAcceptance <- iaa(nStudents=24, nSlots=c(6,6,6),acceptance = "deferred")
+print(deferredAcceptance$s.prefs)
+print(deferredAcceptance$c.prefs)
+```
+
+Ostateczne dopasowanie 
+```{r}
+print(deferredAcceptance$matchings)
+```
+
+Kto się nie dostał do żadnej szkoły? Porównajmy:
+```{r}
+# DA
+print(deferredAcceptance$singles)
+# Boston
+print(boston$singles)
+```
+
+Teraz porównamy oba dopasowania. Żeby obraz porównania był pełen, dołączymy do tablicy dopasowań maturzystów, którzy nie dostali się na żadną uczelnię. Dla ustalenia uwagi, przypiszemy im numer uczelni 0.
+```{r}
+matchBoston <- rbind(matchBoston,
+                     data.frame(students=boston$singles,
+                                college=rep(0,length(boston$singles)))
+                     )
+matchDA <- data.frame(students = c(deferredAcceptance$matchings$student,
+                                   deferredAcceptance$singles),
+                      college = c(deferredAcceptance$matchings$college,
+                                  rep(0,length(deferredAcceptance$singles)))
+                      )
+
+matchDif <- data.frame(student=c(1:24),
+                       colBoston = matchBoston[order(matchBoston$students),2],
+                       colDA = matchDA[order(matchDA$students),2],
+                       isSame = (matchDA[order(matchDA$students),2]==matchBoston[order(matchBoston$students),2]) )
+print(matchDif)
+```
+
+
+## Nielosowe preferencje
+
+Biblioteka pozwala również na konstrukcję dopasowań dla zadanych preferencji - co nie powinno nas dziwić, bo takie jest 'standardowe' zastosowanie algorytmu. Zobaczmy działanie algorytmu na przykładzie danych z Abdulkadiroglu et al.
+
+```{r}
+s.prefs <- matrix(c(
+2,1,3,4,
+1,2,3,4,
+3,2,1,4,
+3,4,1,2,
+1,3,4,2,
+4,1,2,3,
+1,2,3,4,
+1,2,4,3),
+byrow = FALSE, ncol = 8)
+c.prefs <- matrix(c(
+1,2,3,4,5,6,7,8,
+3,5,4,8,7,2,1,6,
+5,3,1,7,2,8,6,4,
+6,8,7,4,2,3,5,1),
+byrow = FALSE, ncol = 4)
+nSlots <- c(2,2,3,3)
+
+iaa(s.prefs=s.prefs, c.prefs=c.prefs, nSlots=nSlots, acceptance="deferred")
+```
+

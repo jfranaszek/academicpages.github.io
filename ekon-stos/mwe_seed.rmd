@@ -1,0 +1,22 @@
+---
+title: "MWE - seed"
+author: "Joanna Franaszek"
+date: "5 kwietnia 2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+ 
+```{r}
+#install.packages("matchingMarkets")
+library(matchingMarkets)
+rm(list=ls())
+```
+
+Przyjmijmy, ze chcemy dopasowac 4 studentow do 3 uczelni po 1 miejsc.
+```{r}
+set.seed(20)
+boston <- iaa(nStudents=4, nSlots=c(1,1,1))
+print(boston$s.prefs)
