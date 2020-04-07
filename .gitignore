@@ -8,3 +8,7 @@ ekon-stos/es_matching_markets_cache/html/unnamed-chunk-10_18d7d1fe748564a557f3b5
 ekon-stos/es_matching_markets_cache/html/unnamed-chunk-10_18d7d1fe748564a557f3b5d2ad24e1ac.rdb
 ekon-stos/es_matching_markets_cache/html/unnamed-chunk-10_18d7d1fe748564a557f3b5d2ad24e1ac.rdx
 ekon-stos/.Rhistory
+*.rdb
+*.rdb
+*.rdx
+*.RData

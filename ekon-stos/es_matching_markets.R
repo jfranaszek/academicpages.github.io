@@ -1,14 +1,14 @@
 ## ----setup, include=FALSE----------------------------------------------------------------------------
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(echo = TRUE, cache=TRUE)
 
 
 ## ----eval=FALSE--------------------------------------------------------------------------------------
-## rm(list=ls())
 ## install.packages("matchingMarkets")
 
 
 ## ----------------------------------------------------------------------------------------------------
 library(matchingMarkets)
+rm(list=ls())
 
 
 ## ----eval=FALSE--------------------------------------------------------------------------------------
@@ -82,4 +82,19 @@ matchDif <- data.frame(student=c(1:24),
                        colDA = matchDA[order(matchDA$students),2],
                        isSame = (matchDA[order(matchDA$students),2]==matchBoston[order(matchBoston$students),2]) )
 print(matchDif)
+
+
+## ----------------------------------------------------------------------------------------------------
+s.prefsNew <- boston$s.prefs
+s.prefsNew[,11] <- c(3,1,2)
+c.prefsNew <- boston$c.prefs
+nSlotsNew <- c(6,6,6)
+
+
+## ---- results="hide"---------------------------------------------------------------------------------
+bostonNew <- iaa(s.prefs=s.prefsNew, c.prefs=c.prefsNew, nSlots = nSlotsNew,  acceptance="immediate")
+deferredAcceptanceNew <- iaa(s.prefs=s.prefsNew, c.prefs=c.prefsNew, nSlots = nSlotsNew, acceptance="deferred")
+
+## ----------------------------------------------------------------------------------------------------
+print(data.frame(boston=bostonNew$matching,DA=deferredAcceptanceNew$matching))
 

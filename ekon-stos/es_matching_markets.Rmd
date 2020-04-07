@@ -44,7 +44,7 @@ Resztę pomocy i przykłady możemy sobie pooglądać w [oficjalnym podręczniku
 ### Boston mechanism
 Zacznijmy od najprostszego przykładu z losowymi preferencjami studentów. Funkcja *set.seed* pozwala na ustalenie ziarna generatora, a zatem pozwala, by losowe preferencje były te same dla obu algorytmów, które chcemy porównać.
 
-Przyjmijmy, że chcemy dopasować 24 studentów do 3 uczelni, na każdej jest 6 miejsc. Preferencje ustawią się losowo, ale wydrukujmy je.
+Przyjmijmy, że chcemy dopasować 24 studentów do 3 uczelni, na każdej jest 6 miejsc. Dla ustalenia uwagi przyjmijmy, że każdy student woli być przypisany do \emph{jakiejś uczelni} niż nieprzypisany. Preferencje ustawią się losowo, ale wydrukujmy je.
 ```{r}
 set.seed(20)
 boston <- iaa(nStudents=24, nSlots=c(6,6,6))
@@ -110,30 +110,29 @@ matchDif <- data.frame(student=c(1:24),
 print(matchDif)
 ```
 
+### Analiza - niestabilne dopasowanie
+Przyjrzyjmy się bliżej dopasowaniu bostońskiemu. Zauważmy, że agent 11 nie został nigdzie zrekrutowany. Ale jest on wysoko na liście preferencji uczelni 2 oraz 3. W szczególności, uczelnia 2 chętnie by wymieniła jednego ze swoich 'ostatnich' przyjętych studentów (np. 7, 10, 22) na studenta 11 i on również wolałby być przyjęty na uczelnię 2 niż nieprzyjęty. Również uczelnia 3 chętnie by wymieniła któregoś ze swoich przyjętych na ucznia nr 11. Jest to jeden z przykładów niestabilności mechanizmu bostońskiego.
 
-## Nielosowe preferencje
-
-Biblioteka pozwala również na konstrukcję dopasowań dla zadanych preferencji - co nie powinno nas dziwić, bo takie jest 'standardowe' zastosowanie algorytmu. Zobaczmy działanie algorytmu na przykładzie danych z Abdulkadiroglu et al.
-
+Co więcej, zauważmy, że agent 11 (i nie tylko...) ma bodźce do strategicznego "kłamstwa" na temat swoich preferencji. Jego prawdziwe preferencje to $1,2,3$. Sprawdźmy co by się stało, gdyby - wiedząc, że na uczelni 3 ma bardzo duże szanse przyjęcia - przedstawił je jako $3,1,2$. 
 ```{r}
-s.prefs <- matrix(c(
-2,1,3,4,
-1,2,3,4,
-3,2,1,4,
-3,4,1,2,
-1,3,4,2,
-4,1,2,3,
-1,2,3,4,
-1,2,4,3),
-byrow = FALSE, ncol = 8)
-c.prefs <- matrix(c(
-1,2,3,4,5,6,7,8,
-3,5,4,8,7,2,1,6,
-5,3,1,7,2,8,6,4,
-6,8,7,4,2,3,5,1),
-byrow = FALSE, ncol = 4)
-nSlots <- c(2,2,3,3)
-
-iaa(s.prefs=s.prefs, c.prefs=c.prefs, nSlots=nSlots, acceptance="deferred")
+s.prefsNew <- boston$s.prefs
+s.prefsNew[,11] <- c(3,1,2)
+c.prefsNew <- boston$c.prefs
+nSlotsNew <- c(6,6,6)
 ```
+
+Przy okazji przetestujemy podstawową funkcjonalność biblioteki, czyli konstrukcję dopasowań dla **zadanych** preferencji. W zastosowaniach jest to oczywiście 'standardowe' zastosowanie algorytmu. 
+
+Porównajmy, jak wygląda teraz dopasowanie według obu algorytmów.
+
+```{r, results="hide"}
+bostonNew <- iaa(s.prefs=s.prefsNew, c.prefs=c.prefsNew, nSlots = nSlotsNew,  acceptance="immediate")
+deferredAcceptanceNew <- iaa(s.prefs=s.prefsNew, c.prefs=c.prefsNew, nSlots = nSlotsNew, acceptance="deferred")
+```
+```{r}
+print(data.frame(boston=bostonNew$matching,DA=deferredAcceptanceNew$matching))
+```
+Zauważmy, że kłamstwo nt. swoich preferencji poprawiło sytuację gracza 11 przy mechanizmie bostońskim, ale pogorszyło przy deferred--aceptance. Dlaczego? Przy DA gracz 11 był *wystarczająco dobry* by dostać się do uczelni numer 2, która jest wyżej w jego prawdziwych preferencjach. Zgodnie z działaniem algorytmu DA uczeń dostaje się do najlepszej uczelni, do jakiej może, a więc kłamstwo nt. preferencji w najepszym wypadku nie zmieni dopasowania, a w niektórych przypadkach -- jak tu - pogorszy sytuację.  
+
+
 

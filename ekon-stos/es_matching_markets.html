@@ -394,7 +394,7 @@ rm(list=ls())</code></pre>
 <div id="boston-mechanism" class="section level3">
 <h3>Boston mechanism</h3>
 <p>Zacznijmy od najprostszego przykładu z losowymi preferencjami studentów. Funkcja <em>set.seed</em> pozwala na ustalenie ziarna generatora, a zatem pozwala, by losowe preferencje były te same dla obu algorytmów, które chcemy porównać.</p>
-<p>Przyjmijmy, że chcemy dopasować 24 studentów do 3 uczelni, na każdej jest 6 miejsc. Preferencje ustawią się losowo, ale wydrukujmy je.</p>
+<p>Przyjmijmy, że chcemy dopasować 24 studentów do 3 uczelni, na każdej jest 6 miejsc. Dla ustalenia uwagi przyjmijmy, że każdy student woli być przypisany do  niż nieprzypisany. Preferencje ustawią się losowo, ale wydrukujmy je.</p>
 <pre class="r"><code>set.seed(20)
 boston &lt;- iaa(nStudents=24, nSlots=c(6,6,6))
 print(boston$s.prefs)</code></pre>
@@ -572,67 +572,40 @@ print(matchDif)</code></pre>
 ## 23      23         0     1  FALSE
 ## 24      24         3     1  FALSE</code></pre>
 </div>
+<div id="analiza---niestabilne-dopasowanie" class="section level3">
+<h3>Analiza - niestabilne dopasowanie</h3>
+<p>Przyjrzyjmy się bliżej dopasowaniu bostońskiemu. Zauważmy, że agent 11 nie został nigdzie zrekrutowany. Ale jest on wysoko na liście preferencji uczelni 2 oraz 3. W szczególności, uczelnia 2 chętnie by wymieniła jednego ze swoich ‘ostatnich’ przyjętych studentów (np. 7, 10, 22) na studenta 11 i on również wolałby być przyjęty na uczelnię 2 niż nieprzyjęty. Również uczelnia 3 chętnie by wymieniła któregoś ze swoich przyjętych na ucznia nr 11. Jest to jeden z przykładów niestabilności mechanizmu bostońskiego.</p>
+<p>Co więcej, zauważmy, że agent 11 (i nie tylko…) ma bodźce do strategicznego “kłamstwa” na temat swoich preferencji. Jego prawdziwe preferencje to <span class="math inline">\(1,2,3\)</span>. Sprawdźmy co by się stało, gdyby - wiedząc, że na uczelni 3 ma bardzo duże szanse przyjęcia - przedstawił je jako <span class="math inline">\(3,1,2\)</span>.</p>
+<pre class="r"><code>s.prefsNew &lt;- boston$s.prefs
+s.prefsNew[,11] &lt;- c(3,1,2)
+c.prefsNew &lt;- boston$c.prefs
+nSlotsNew &lt;- c(6,6,6)</code></pre>
+<p>Przy okazji przetestujemy podstawową funkcjonalność biblioteki, czyli konstrukcję dopasowań dla <strong>zadanych</strong> preferencji. W zastosowaniach jest to oczywiście ‘standardowe’ zastosowanie algorytmu.</p>
+<p>Porównajmy, jak wygląda teraz dopasowanie według obu algorytmów.</p>
+<pre class="r"><code>bostonNew &lt;- iaa(s.prefs=s.prefsNew, c.prefs=c.prefsNew, nSlots = nSlotsNew,  acceptance=&quot;immediate&quot;)
+deferredAcceptanceNew &lt;- iaa(s.prefs=s.prefsNew, c.prefs=c.prefsNew, nSlots = nSlotsNew, acceptance=&quot;deferred&quot;)</code></pre>
+<pre class="r"><code>print(data.frame(boston=bostonNew$matching,DA=deferredAcceptanceNew$matching))</code></pre>
+<pre><code>##    boston.college boston.student DA.college DA.student
+## 1               1              3          1          3
+## 6               1              9          1          7
+## 2               1             15          1         15
+## 5               1             16          1         19
+## 4               1             18          1         23
+## 3               1             19          1         24
+## 8               2              1          2          1
+## 10              2              7          2          6
+## 11              2             10          2          8
+## 9               2             12          2         12
+## 7               2             21          2         18
+## 12              2             22          2         21
+## 18              3              4          3          4
+## 17              3              5          3          5
+## 13              3             11          3         10
+## 15              3             13          3         11
+## 14              3             14          3         14
+## 16              3             24          3         22</code></pre>
+<p>Zauważmy, że kłamstwo nt. swoich preferencji poprawiło sytuację gracza 11 przy mechanizmie bostońskim, ale pogorszyło przy deferred–aceptance. Dlaczego? Przy DA gracz 11 był <em>wystarczająco dobry</em> by dostać się do uczelni numer 2, która jest wyżej w jego prawdziwych preferencjach. Zgodnie z działaniem algorytmu DA uczeń dostaje się do najlepszej uczelni, do jakiej może, a więc kłamstwo nt. preferencji w najepszym wypadku nie zmieni dopasowania, a w niektórych przypadkach – jak tu - pogorszy sytuację.</p>
 </div>
-<div id="nielosowe-preferencje" class="section level2">
-<h2>Nielosowe preferencje</h2>
-<p>Biblioteka pozwala również na konstrukcję dopasowań dla zadanych preferencji - co nie powinno nas dziwić, bo takie jest ‘standardowe’ zastosowanie algorytmu. Zobaczmy działanie algorytmu na przykładzie danych z Abdulkadiroglu et al.</p>
-<pre class="r"><code>s.prefs &lt;- matrix(c(
-2,1,3,4,
-1,2,3,4,
-3,2,1,4,
-3,4,1,2,
-1,3,4,2,
-4,1,2,3,
-1,2,3,4,
-1,2,4,3),
-byrow = FALSE, ncol = 8)
-c.prefs &lt;- matrix(c(
-1,2,3,4,5,6,7,8,
-3,5,4,8,7,2,1,6,
-5,3,1,7,2,8,6,4,
-6,8,7,4,2,3,5,1),
-byrow = FALSE, ncol = 4)
-nSlots &lt;- c(2,2,3,3)
-
-iaa(s.prefs=s.prefs, c.prefs=c.prefs, nSlots=nSlots, acceptance=&quot;deferred&quot;)</code></pre>
-<pre><code>## $s.prefs
-##      [,1] [,2] [,3] [,4] [,5] [,6] [,7] [,8]
-## [1,]    2    1    3    3    1    4    1    1
-## [2,]    1    2    2    4    3    1    2    2
-## [3,]    3    3    1    1    4    2    3    4
-## [4,]    4    4    4    2    2    3    4    3
-## 
-## $c.prefs
-##      [,1] [,2] [,3] [,4]
-## [1,]    1    3    5    6
-## [2,]    2    5    3    8
-## [3,]    3    4    1    7
-## [4,]    4    8    7    4
-## [5,]    5    7    2    2
-## [6,]    6    2    8    3
-## [7,]    7    1    6    5
-## [8,]    8    6    4    1
-## 
-## $iterations
-## [1] 4
-## 
-## $matchings
-##   college student
-## 2       1       1
-## 1       1       2
-## 3       2       7
-## 4       2       8
-## 5       3       3
-## 6       3       4
-## 7       3       5
-## 8       4       6
-## 
-## $singles
-## numeric(0)
-## 
-## $free_cap
-##   1 2 3 4
-## 1 0 0 0 2</code></pre>
 </div>
 
 
