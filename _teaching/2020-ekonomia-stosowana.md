@@ -27,3 +27,8 @@ Zajęcia MK:
 * [Formularz - trufle](https://forms.gle/bKb2zy7M1BKT8ESF9)
 * [Formularz - kurczaki]( https://forms.gle/uFei7aqJuC3JRYuSA)
 
+Zajęcia JF:
+* [slajdy]() pojawią się po wykładzie
+* [prosta ilustracja w Netlogo](/ekon-stos/da_college.html)
+* [notatki do ćwiczeń](/ekon-stos/es_matching_markets.html) i [czysty kod w R](/ekon-stos/es_matching_markets.R)
+
