@@ -19,4 +19,4 @@ Zajęcia dr hab. Knauff:
 [slajdy - popyt](/ekon-stos/ES_Demand.pdf), [slajdy - popyt i podaż](/ekon-stos/ES_Demand_Supply.pdf), [Dane (.zip)](/ekon-stos/dane_gdt.zip), [Praca domowa 3](/ekon-stos/praca_domowa_kawa.docx)  
 [Formularz - piwo](https://forms.gle/v1AVwRyjVSTkJ7cf6), [Formularz - trufle](https://forms.gle/bKb2zy7M1BKT8ESF9), [Formularz - kurczaki]( https://forms.gle/uFei7aqJuC3JRYuSA)
 
-Zajęcia dr Franaszek: [slajdy]() (po wykładzie), [prosta ilustracja w Netlogo](/ekon-stos/da_college.html), [notatki do ćwiczeń](/ekon-stos/es_matching_markets.html) i [czysty kod w R](/ekon-stos/es_matching_markets.R) 
+Zajęcia dr Franaszek: [slajdy 1](/ekon-stos/es_Matching_lecture1.pdf), [prosta ilustracja w Netlogo](/ekon-stos/da_college.html), [notatki do ćwiczeń](/ekon-stos/es_matching_markets.html) i [czysty kod w R](/ekon-stos/es_matching_markets.R) 
