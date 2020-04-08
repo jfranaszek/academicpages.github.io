@@ -12,3 +12,9 @@ ekon-stos/.Rhistory
 *.rdb
 *.rdx
 *.RData
+*.gz
+ekon-stos/Ekonomia-stosowana-praca-domowa-4.md
+*.aux
+*.log
+*.out
+ekon-stos/Ekonomia-stosowana-praca-domowa-4.tex
