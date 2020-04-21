@@ -20,8 +20,7 @@ Zajęcia dr hab. Knauff:
 [Praca domowa 3](/ekon-stos/praca_domowa_kawa.docx), [Formularz - piwo](https://forms.gle/v1AVwRyjVSTkJ7cf6), [Formularz - trufle](https://forms.gle/bKb2zy7M1BKT8ESF9), [Formularz - kurczaki]( https://forms.gle/uFei7aqJuC3JRYuSA)
 
 Zajęcia dr Franaszek:
-[slajdy 1 &2](/ekon-stos/es_Matching_lecture_full.pdf), [prosta ilustracja w Netlogo](/ekon-stos/da_college.html), [notatki do ćwiczeń 1](/ekon-stos/es_matching_markets.html) i [czysty kod w R 1](/ekon-stos/es_matching_markets.R),[notatki do ćwiczeń 2](/ekon-stos/es_matching_markets_part2.html) i [czysty kod w R 2](/ekon-stos/es_matching_markets_part2.R)   
-[Praca domowa 4](/ekon-stos/zad_domowe_ES_JF.pdf), [csv-studenci](/ekon-stos/stud_pref.csv), [csv-uczelnie](/ekon-stos/ucz_pref.csv), [csv-dopasowania](/ekon-stos/matching_comparison.csv)  
+[slajdy 1 &2](/ekon-stos/es_Matching_lecture_full.pdf), [prosta ilustracja w Netlogo](/ekon-stos/da_college.html), [notatki do ćwiczeń 1](/ekon-stos/es_matching_markets.html) i [czysty kod w R 1](/ekon-stos/es_matching_markets.R),[notatki do ćwiczeń 2](/ekon-stos/es_matching_markets_part2.html) i [czysty kod w R 2](/ekon-stos/es_matching_markets_part2.R), [Praca domowa 4](/ekon-stos/zad_domowe_ES_JF.pdf), [csv-studenci](/ekon-stos/stud_pref.csv), [csv-uczelnie](/ekon-stos/ucz_pref.csv), [csv-dopasowania](/ekon-stos/matching_comparison.csv)  
 
 Zajęcia dr Gradzewicz:
-[paczka Leontief](/ekon-stos/Leontief.zip), [paczka Solow][/ekon-stos/Solow.zip]
+[paczka Leontief](/ekon-stos/Leontief.zip), [paczka Solow](/ekon-stos/Solow.zip)
