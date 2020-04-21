@@ -1,0 +1,92 @@
+---
+title: "Ekonomia stosowana - matching markets (cz.2)"
+author: "Joanna Franaszek"
+date: 2020-04-20
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, cache=TRUE)
+```
+
+## Intro
+Na dzisiejszych zajęciach będziemy poznawać dalsze funckje biblioteki [matchingMarkets](https://cran.r-project.org/web/packages/matchingMarkets/index.html
+). Zakładam, że jest zainstalowana, ładujemy ją poleceniem:
+
+```{r}
+library(matchingMarkets)
+rm(list=ls())
+```
+Przetestujemy dziś dwa algorytmy stanowiące uogólnienie prostego mechanizmu rekrutacji, tj. funkcje hri oraz hri2.
+```{r eval=FALSE}
+help(hri)
+```
+Składnia **hri** jest bardzo podobna do zeszłotygodniowej funkcji *iaa*. Funkcja ma również możliwość generowania losowych preferencji, co przyda nam się w prostych przykładach. 
+
+
+### Deferred-acceptance z niepełymi listami
+
+Ważną cechą algorytmu **hri** jest to, że produkuje *wszystkie* dopasowania stabline. Dla prostego modelu rekrutacji algorytmy *hri* i *iaa(.,acceptance="deferred")* działają tak samo, z tym, że *iaa* zaraportuje tylko dopasowanie optymalne dla studentóe, a *hri* - wszystkie dopasowania stabline.
+
+Sprawdźmy to!
+```{r}
+daResults <- iaa(nStudents=14, nSlots=c(4,4,4), acceptance = "deferred", seed=10)
+hriResults <- hri(nStudents=14, nSlots=c(4,4,4), seed=10)
+print(daResults$matchings)
+print(hriResults$matchings)
+```
+
+Zobaczmy, że kolumny *sOptimal* i *cOptimal* pokazują optymalne dopasowanie z punktu widzenia studenta i uczelni. To oznaczone jako optymalne dla studentów rzeczywiście pokrywa się z wynikami *iaa(.,acceptance="deferred")*.
+
+
+Kolejnym zastosowaniem **hri** są niepełne listy. Przyjmijmy, że niektórzy studenci dopuszczają tylko 2 uczelnie z 3 i wolą nie być nigdzie przypisani niż być przypisani do uczelni spoza listy. Podobnie uczelnie mogą woleć nie przyjąć nikogo niż przyjąć kogoś niespełniającego ich wymogów.
+
+Zmodyfikujmy nieco preferencje, żeby zobaczyć, jak to działa
+
+```{r, warning=FALSE}
+sPrefs <- hriResults$s.prefs.hri
+cPrefs <- hriResults$c.prefs.hri
+print(sPrefs[1:3,1:3])
+print(cPrefs[11:14,1])
+sPrefs[3,1:3] <- NA  # trzech pierwszych studentów usuwa swoją ostatnią uczelnię
+cPrefs[11:14,1]<-NA  # pierwsza uczelnia usuwa 4 najmniej preferowanych studentów
+
+hriIncomplete <- hri(s.prefs = sPrefs, c.prefs = cPrefs, nSlots = c(4,4,4))
+hriMatch <- hriResults$matchings[,c("sOptimal","college","student")]
+hriIncMatch <- hriIncomplete$matchings[,c("sOptimal","college","student")] 
+
+dif <- data.frame(CP = hriMatch[order(hriMatch$sOptimal,hriMatch$student),],
+                 IP = hriIncMatch[order(hriIncMatch$sOptimal,hriIncMatch$student),])
+print(dif)
+
+```
+Jak widać, student 1 'wyleciał' na skutek zmiany preferencji -- na własne życzenie zresztą, skoro usunął ją z listy! Ciekawsze jest to, że w jednym ze stabilnych dopasowań zmienia się również sytuacja studenta 2. 
+
+### Deferred acceptance z parami
+
+Kolejną funkcją, którą dziś zbadamy, jest **hri2**, czyli kolejna modyfikacja DA, tym razem zezwalająca na preferencje par (niekompletne preferencje również). Uwaga: preferencje par podawane są w osobnej liście *co.prefs* (tj. par nie dokładamy do jednostkowych studentów) zapisywanej następująco: w każdym wierszy podane są 4 liczby: *(partner1, partner2, (dwudymiarowe preferencje))*.
+
+```{r}
+sPrefs <- matrix(c(4,2,3,5, 2,1,3,NA, 1,2,3,4), 4,3) # tu są 3 studenci
+coPrefs <- matrix(c(rep(4,3), rep(5,3), 3,3,NA, 3,NA,3), 3,4) # a tu jest jedna para - łącznie 5 chętnych
+print(sPrefs)   # preferencje singli
+print(coPrefs)  # preferencje par - zob. sposósb zapisu
+cPrefs <- matrix(rep(1:5,5), 5,5) # uczelnie są nudne, wszystkie chcą 1,2,3,4,5
+hriWithCouples <- hri2(s.prefs = sPrefs, c.prefs = cPrefs, co.prefs = coPrefs)
+print(hriWithCouples$matching)
+```
+
+Wygląda niepozornie, ale to jest *ten* algorytm Rotha z wykładu, który -- między innymi -- dał mu Nobla!
+
+### Bonus - Top trading cycles
+Ostatni algorytm, o którym tylko wspomnę to dwustronny *top trading cycles*, również obecny w paczce *matchingMarkets*. Realizuje go funkcja **ttc2**. Przetestujmy ją na naszym jedynym poznanym przykładzie:
+```{r}
+sPrefs <- matrix(c(2,1,3,1,2,3,1,2,3),byrow = FALSE, ncol=3)
+cPrefs <- matrix(c(1,3,2,2,1,3,2,1,3),byrow = FALSE, ncol=3)
+topTC <- ttc2(s.prefs = sPrefs, c.prefs = cPrefs, nSlots =c(1,1,1))
+colnames(topTC) <- c("student","college")
+da <- hri(s.prefs = sPrefs, c.prefs = cPrefs, nSlots =c(1,1,1))
+print(data.frame(da=da$matchings[,c("college","student")],topTC[,c("college","student")]))
+
+```
+
