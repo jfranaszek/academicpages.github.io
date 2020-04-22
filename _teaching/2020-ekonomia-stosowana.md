@@ -21,7 +21,7 @@ Zajęcia dr hab. Knauff:
 
 Zajęcia dr Franaszek:
 [slajdy 1 &2](/ekon-stos/es_Matching_lecture_full.pdf), [prosta ilustracja w Netlogo](/ekon-stos/da_college.html), [notatki do ćwiczeń 1](/ekon-stos/es_matching_markets.html) i [czysty kod w R 1](/ekon-stos/es_matching_markets.R),[notatki do ćwiczeń 2](/ekon-stos/es_matching_markets_part2.html) i [czysty kod w R 2](/ekon-stos/es_matching_markets_part2.R), [Praca domowa 4 - paczka](/ekon-stos/ES_PD4_JF.zip)  
-Dodatkowo: [wstęp do R (kod)](ekon-stos/wstep_do_R.R)
+Dodatkowo: [wstęp do R (kod)](/ekon-stos/wstep_do_R.R)
 
 Zajęcia dr Gradzewicz:
 [paczka Leontief](/ekon-stos/Leontief.zip), [paczka Solow](/ekon-stos/Solow.zip)

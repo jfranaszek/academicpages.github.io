@@ -16,7 +16,7 @@
 
 
 
-# Tworzenie nowego skryptu: Plik->Nowy skrypt lub Ctrl+N
+# Tworzenie nowego skryptu: Plik->Nowy skrypt lub Shift+Ctrl+N
 # Otwarcie utworzonego skryptu: Plik-> Otwórz lub Ctr+O lub polecenie source, np.
 source("es_matching_markets.R") # kods z poprzednich zajêæ
 
@@ -32,8 +32,9 @@ round(pi, digits = 1)
 # Ewentualnie "=" lub "->" (ale to bad practice)
 
 a <- 3
-4.5 -> b
+4.5 -> b # bad practice
 a + b
+
 akwadrat = a ^ 2
 akwadrat + 1
 
@@ -44,13 +45,15 @@ wektor_liczb <- c(1, 2, 3, 4, 5)
 wektor_liczb
 
 wektor_liczb[3]
-wektor_liczb[-3]
+wektor_liczb[-c(1,3)]
 wektor_liczb[wektor_liczb != 4]
 
 wektor_liczb[4] <- NA
 wektor_liczb
+sum(wektor_liczb)
+sum(wektor_liczb, na.rm=TRUE)
 
-wektor_znakow <- c('a', 'b', 'c')
+wektor_znakow <- c("a", "b", "c")
 wektor_znakow
 wektor_znakow2 <- 'Hello, world'
 wektor_znakow2
@@ -82,10 +85,10 @@ znaki_na_liczby
 # Co robi funkcja factor? Najlepiej zapytaæ R:
 
 help(factor)
-? factor
+?factor
 
 help.search('standard deviation')
-?  ? 'standard deviation'
+??'standard deviation'
 
 # Operacje na wektorach:
 
@@ -103,7 +106,7 @@ powtorki <- rep(1:4, each = 3)
 powtorki
 unique(powtorki)
 
-ciag_lepszy <- seq(0.1, 1, 0.05)
+ciag_lepszy <- seq(0.1, 1, by=0.05)
 ciag_lepszy
 
 # Jeœli pogubiliœmy siê ju¿ w naszych zmiennych, mo¿emy wypisaæ ich listê:
@@ -122,11 +125,11 @@ macierz_druga
 macierz %*% macierz_druga
 
 # Wiersz a kolumna:
-macierz[1, ]
+macierz[1,]
 macierz[, 1]
 
 macierz[1:2, ]
-macierz[, macierz[1, ] != 1]
+macierz[ , macierz[1, ] != 1]
 
 # TABLICE/RAMKI DANYCH:
 
@@ -158,7 +161,7 @@ t(macierz_druga)
 
 # LISTY:
 
-lista <- list(wektor_znakow, macierz, tablica)
+lista <- list(wektor_znakow, macierz,akwadrat)
 lista
 length(lista)
 names(lista)
