@@ -24,4 +24,4 @@ Zajęcia dr Franaszek:
 Dodatkowo: [wstęp do R (kod)](/ekon-stos/wstep_do_R.R)
 
 Zajęcia dr Gradzewicz:
-[paczka Leontief](/ekon-stos/Leontief.zip), [paczka Solow](/ekon-stos/Solow.zip)
+[paczka Leontief](/ekon-stos/Leontief.zip), [paczka Solow](/ekon-stos/Solow.zip), [paczka filtrowanie](/ekon-stos/filtrowanie.zip)
